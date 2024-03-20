@@ -15,6 +15,8 @@ function addVocabulary() {
 
   if (deutschText.value && englischText.value) {
     dictionary[deutschText.value] = englischText.value;
-    console.log(dictionary);
+
+    deutschText.value = "";
+    englischText.value = "";
   }
 }
