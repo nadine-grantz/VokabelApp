@@ -26,24 +26,42 @@
           <div class="mdl-layout-spacer"></div>
           <!-- Navigation. We hide it in small screens. -->
           <nav class="mdl-navigation mdl-layout--large-screen-only">
-            <a class="mdl-navigation__link" href="index.html"
-              >Vokabel Trainer</a
-            >
-            <a class="mdl-navigation__link" href="add.html">Add</a>
+            <a class="mdl-navigation__link" href="index.html">Vokabel Test</a>
+            <a class="mdl-navigation__link" href="add.html">Hinzufügen</a>
           </nav>
         </div>
       </header>
       <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">Title</span>
+        <span class="mdl-layout-title">Vokabel Trainer</span>
         <nav class="mdl-navigation">
-          <a class="mdl-navigation__link" href="">Link 1</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
-          <a class="mdl-navigation__link" href="">Link</a>
+          <a class="mdl-navigation__link" href="index.html">Vokabel Test</a>
+          <a class="mdl-navigation__link" href="add.html">Hinzufügen</a>
         </nav>
       </div>
       <main class="mdl-layout__content">
-        <div class="page-content"><!-- Your content goes here --></div>
+        <div class="page-content">
+          Was bedeutet
+          <h1>{HALLO}?</h1>
+          <form action="#">
+            <div
+              class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label"
+            >
+              <input
+                class="mdl-textfield__input"
+                type="text"
+                id="german_text"
+              />
+              <label class="mdl-textfield__label" for="german_text"
+                >Deutsch</label
+              >
+            </div>
+            <button
+              class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent"
+            >
+              Add
+            </button>
+          </form>
+        </div>
       </main>
     </div>
   </body>
